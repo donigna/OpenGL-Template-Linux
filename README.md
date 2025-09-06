@@ -46,25 +46,26 @@ Click Generate and download the ZIP file.
 
 Extract the ZIP into your project folder, e.g.:
 
+```
 project/
 ├── glad/
 │   ├── include/glad/glad.h
 │   └── src/glad.c
 └── src/
     └── main.cpp
-
+```
 ## 4. Project structure
 
 Minimal layout should look like this:
-
+```
 project/
 ├── glad/
 │   ├── include/glad/glad.h
 │   └── src/glad.c
 ├── src/
 │   └── main.cpp
-└── CMakeLists.txt   (optional)
-
+└── CMakeLists.txt 
+```
 ## 5. Compile manually
 
 From the project root, build using g++:
