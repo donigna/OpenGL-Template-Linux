@@ -1,0 +1,3 @@
+/home/donigna/OpenGL/OpenGL-Template-Linux/build/CMakeFiles/my_app.dir
+/home/donigna/OpenGL/OpenGL-Template-Linux/build/CMakeFiles/edit_cache.dir
+/home/donigna/OpenGL/OpenGL-Template-Linux/build/CMakeFiles/rebuild_cache.dir

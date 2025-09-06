@@ -8,7 +8,7 @@ include_directories($ENV{HOME}/local/include)
 link_directories($ENV{HOME}/local/lib)
 
 # Add include path to GLAD
-include_directories(${CAMKE_SOURCE_DIR}/glad/include/glad)
+include_directories(${CMAKE_SOURCE_DIR}/glad/include)
 
 add_executable(my_app 
     src/main.cpp
