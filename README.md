@@ -88,7 +88,15 @@ g++ src/*.cpp glad/src/glad.c \
 
 -ldl and -lGL → standard Linux libraries
 
-## 6. Minimal example (src/main.cpp)
+## 6. Using Template 
+clone project : 
+```git clone https://github.com/donigna/OpenGL-Template-Linux```
+
+1. open project folder
+2. build cmake >try delete default build if found error then build again
+3. try run main.cpp
+
+### Minimal example (src/main.cpp)
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <iostream>
