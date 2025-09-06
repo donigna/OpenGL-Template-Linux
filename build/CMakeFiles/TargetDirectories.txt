@@ -1,3 +1,0 @@
-/home/donigna/Kuliah/TestGL/build/CMakeFiles/my_app.dir
-/home/donigna/Kuliah/TestGL/build/CMakeFiles/edit_cache.dir
-/home/donigna/Kuliah/TestGL/build/CMakeFiles/rebuild_cache.dir
