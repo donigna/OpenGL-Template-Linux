@@ -6,7 +6,7 @@
 
 ## 1. Install system dependencies
 
-**Requirements : **
+**Requirements :**
 
 First, make sure you have the build tools and OpenGL development packages:
 
