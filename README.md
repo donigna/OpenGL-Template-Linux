@@ -6,15 +6,23 @@
 
 ## 1. Install system dependencies
 
+**Requirements : **
+
 First, make sure you have the build tools and OpenGL development packages:
 
+```
 sudo apt update
 sudo apt install build-essential cmake git pkg-config
-
+```
 
 Install OpenGL and additional dependencies (for X11 and Wayland):
-
+```
 sudo apt install libgl1-mesa-dev libx11-dev xorg-dev libwayland-dev libxkbcommon-dev
+```
+Install SOIL for image processor: 
+```
+sudo apt install libsoil-dev
+```
 
 ## 2. Install GLFW
 
