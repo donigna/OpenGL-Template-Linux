@@ -19,23 +19,17 @@ Install OpenGL and additional dependencies (for X11 and Wayland):
 ```
 sudo apt install libgl1-mesa-dev libx11-dev xorg-dev libwayland-dev libxkbcommon-dev
 ```
+Install GLFW via apt : 
+```
+sudo apt update
+sudo apt -y install libglfw3 libglfw3-dev
+```
+*This installs glfw3 to /usr/local/lib and its headers to /usr/local/include/GLFW.*
+
 Install SOIL for image processor: 
 ```
 sudo apt install libsoil-dev
 ```
-
-## 2. Install GLFW
-
-Clone and build GLFW from source:
-
-git clone https://github.com/glfw/glfw.git
-cd glfw
-cmake -S . -B build -DGLFW_BUILD_WAYLAND=OFF -DGLFW_BUILD_X11=ON
-cmake --build build
-sudo cmake --install build
-
-
-This installs glfw3 to /usr/local/lib and its headers to /usr/local/include/GLFW.
 
 ## 3. Setup GLAD
 
