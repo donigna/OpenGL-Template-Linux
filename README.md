@@ -191,7 +191,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 }
 ```
 ## 6. Run
-./app
+./main
 
 
 You should see an empty window with an active OpenGL context.
