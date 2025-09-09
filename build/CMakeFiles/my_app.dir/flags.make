@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/g++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/donigna/local/include -I/home/donigna/OpenGL/OpenGL-Template-Linux/glad/include
+C_INCLUDES = -I/home/donigna/OpenGL/OpenGL-Template-Linux/external -I/home/donigna/OpenGL/OpenGL-Template-Linux/include
 
 C_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/donigna/local/include -I/home/donigna/OpenGL/OpenGL-Template-Linux/glad/include
+CXX_INCLUDES = -I/home/donigna/OpenGL/OpenGL-Template-Linux/external -I/home/donigna/OpenGL/OpenGL-Template-Linux/include
 
 CXX_FLAGS = -g -std=gnu++17
 

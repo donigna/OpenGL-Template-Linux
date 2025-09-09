@@ -129,29 +129,29 @@ my_app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_app.dir/build.make CMakeFiles/my_app.dir/build
 .PHONY : my_app/fast
 
-glad/src/glad.o: glad/src/glad.c.o
-.PHONY : glad/src/glad.o
+src/glad.o: src/glad.c.o
+.PHONY : src/glad.o
 
 # target to build an object file
-glad/src/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_app.dir/build.make CMakeFiles/my_app.dir/glad/src/glad.c.o
-.PHONY : glad/src/glad.c.o
+src/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_app.dir/build.make CMakeFiles/my_app.dir/src/glad.c.o
+.PHONY : src/glad.c.o
 
-glad/src/glad.i: glad/src/glad.c.i
-.PHONY : glad/src/glad.i
+src/glad.i: src/glad.c.i
+.PHONY : src/glad.i
 
 # target to preprocess a source file
-glad/src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_app.dir/build.make CMakeFiles/my_app.dir/glad/src/glad.c.i
-.PHONY : glad/src/glad.c.i
+src/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_app.dir/build.make CMakeFiles/my_app.dir/src/glad.c.i
+.PHONY : src/glad.c.i
 
-glad/src/glad.s: glad/src/glad.c.s
-.PHONY : glad/src/glad.s
+src/glad.s: src/glad.c.s
+.PHONY : src/glad.s
 
 # target to generate assembly for a file
-glad/src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_app.dir/build.make CMakeFiles/my_app.dir/glad/src/glad.c.s
-.PHONY : glad/src/glad.c.s
+src/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_app.dir/build.make CMakeFiles/my_app.dir/src/glad.c.s
+.PHONY : src/glad.c.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -186,9 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... my_app"
-	@echo "... glad/src/glad.o"
-	@echo "... glad/src/glad.i"
-	@echo "... glad/src/glad.s"
+	@echo "... src/glad.o"
+	@echo "... src/glad.i"
+	@echo "... src/glad.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

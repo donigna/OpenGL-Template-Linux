@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/donigna/OpenGL/OpenGL-Template-Linux/glad/src/glad.c" "CMakeFiles/my_app.dir/glad/src/glad.c.o" "gcc" "CMakeFiles/my_app.dir/glad/src/glad.c.o.d"
+  "/home/donigna/OpenGL/OpenGL-Template-Linux/src/glad.c" "CMakeFiles/my_app.dir/src/glad.c.o" "gcc" "CMakeFiles/my_app.dir/src/glad.c.o.d"
   "/home/donigna/OpenGL/OpenGL-Template-Linux/src/main.cpp" "CMakeFiles/my_app.dir/src/main.cpp.o" "gcc" "CMakeFiles/my_app.dir/src/main.cpp.o.d"
   )
 

@@ -1,14 +1,14 @@
 [
 {
   "directory": "/home/donigna/OpenGL/OpenGL-Template-Linux/build",
-  "command": "/usr/bin/g++  -I/home/donigna/local/include -I/home/donigna/OpenGL/OpenGL-Template-Linux/glad/include -g -std=gnu++17 -o CMakeFiles/my_app.dir/src/main.cpp.o -c /home/donigna/OpenGL/OpenGL-Template-Linux/src/main.cpp",
+  "command": "/usr/bin/g++  -I/home/donigna/OpenGL/OpenGL-Template-Linux/external -I/home/donigna/OpenGL/OpenGL-Template-Linux/include -g -std=gnu++17 -o CMakeFiles/my_app.dir/src/main.cpp.o -c /home/donigna/OpenGL/OpenGL-Template-Linux/src/main.cpp",
   "file": "/home/donigna/OpenGL/OpenGL-Template-Linux/src/main.cpp",
   "output": "CMakeFiles/my_app.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/donigna/OpenGL/OpenGL-Template-Linux/build",
-  "command": "/usr/bin/gcc  -I/home/donigna/local/include -I/home/donigna/OpenGL/OpenGL-Template-Linux/glad/include -g -o CMakeFiles/my_app.dir/glad/src/glad.c.o -c /home/donigna/OpenGL/OpenGL-Template-Linux/glad/src/glad.c",
-  "file": "/home/donigna/OpenGL/OpenGL-Template-Linux/glad/src/glad.c",
-  "output": "CMakeFiles/my_app.dir/glad/src/glad.c.o"
+  "command": "/usr/bin/gcc  -I/home/donigna/OpenGL/OpenGL-Template-Linux/external -I/home/donigna/OpenGL/OpenGL-Template-Linux/include -g -o CMakeFiles/my_app.dir/src/glad.c.o -c /home/donigna/OpenGL/OpenGL-Template-Linux/src/glad.c",
+  "file": "/home/donigna/OpenGL/OpenGL-Template-Linux/src/glad.c",
+  "output": "CMakeFiles/my_app.dir/src/glad.c.o"
 }
 ]

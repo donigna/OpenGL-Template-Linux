@@ -8,15 +8,15 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${workspaceFolder}/src/*.cpp",
-                "${workspaceFolder}/glad/src/glad.c",
+                "${workspaceFolder}/src/*.c",
                 // include paths
-                "-I${workspaceFolder}/glad/include",
-                "-I${workspaceFolder}/local/include",
-
+                "-I${workspaceFolder}/external",
+                "-I${workspaceFolder}/include",
                 // library paths
                 "-L${workspaceFolder}/local/lib",
                 "-lglfw",
                 "-ldl",
+                "-lSOIL",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
             ],
