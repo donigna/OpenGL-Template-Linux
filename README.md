@@ -31,7 +31,7 @@ Install SOIL for image processor:
 sudo apt install libsoil-dev
 ```
 
-## 3. Setup GLAD
+## 2. Setup GLAD
 
 Go to the GLAD generator
 :
@@ -56,7 +56,7 @@ project/
 └── src/
     └── main.cpp
 ```
-## 4. Project structure
+## 3. Project structure
 
 Minimal layout should look like this:
 ```
@@ -68,7 +68,7 @@ project/
 │   └── main.cpp
 └── CMakeLists.txt 
 ```
-## 5. Compile manually
+## 4. Compile manually
 
 From the project root, build using g++:
 
@@ -90,7 +90,7 @@ g++ src/*.cpp glad/src/glad.c \
 
 -ldl and -lGL → standard Linux libraries
 
-## 6. Using Template 
+## 5. Using Template 
 clone project : 
 ```
 git clone https://github.com/donigna/OpenGL-Template-Linux
@@ -190,7 +190,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
     glViewport(0, 0, width, height);
 }
 ```
-## 7. Run
+## 6. Run
 ./app
 
 
